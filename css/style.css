@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	display: flex;
+	justify-content: center;
+}
+
+#butred {
+	padding: 22px 50px;
+	border: none;
+	background-color: pink;
+	outline: none;
+	justify-content: center;
+	margin: 20px;
+	font-size: 20px;
+}
+
+#butgreen {
+	padding: 22px 50px;
+	border: none;
+	background-color: pink;
+	outline: none;
+	justify-content: center;
+	margin: 20px;
+	font-size: 20px;
+
+
+}
+
+#butblue {
+	padding: 22px 50px;
+	border: none;
+	background-color: pink;
+	outline: none;
+	justify-content: center;
+	margin: 20px;
+	font-size: 20px;
+}
+
+@media (max-width 425px) {
+	bgcolor {
+		padding: 22px 50px;
+
+	}
+}
