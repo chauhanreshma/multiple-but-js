@@ -14,31 +14,41 @@
 
 
 
-	<div class="bgcolor">
-		<button id="butred" onclick="doonclick1()">BG-Color</button>
-		<button id="butgreen" onclick="doonclick2()">BG-Color</button>
-		<button id="butblue" onclick="doonclick()">BG-Color</button>
-
-
+<div class="">
+		<button id="butred" onclick="bgcolor1()">BG-Color</button>
+		<button id="butgreen" onclick="bgcolor2()">BG-Color</button>
+		<button id="butblue" onclick="bgcolor3()">BG-Color</button>
+</div>
 		<script>
-			function doonclick1() {
-
+			function bgcolor1() {
 				document.getElementById('butred').style.backgroundColor = 'red';
 			}
-
-			function doonclick2() {
-
+			function bgcolor2() {
 				document.getElementById('butgreen').style.backgroundColor = 'green';
 			}
-
-			function doonclick() {
-
+			function bgcolor3() {
 				document.getElementById('butblue').style.backgroundColor = 'blue';
 			}
-
 		</script>
 
-	</div>
+<!--<textarea>-->
+
+<div class="bgcolor ">
+	<button id="textred" onclick="textcolor1()">Change The Text Color</button>
+	<button id="textgreen" onclick="textcolor2()">Change The Text Color</button>
+	<button id="textblue" onclick="textcolor3()">Change The Text Color</button>
+</div>
+<script>
+	function textcolor1() {
+		document.getElementById("textred").style.Color = "blue";
+	}
+	function textcolor2() {
+		document.getElementById('textgreen').style.Color = 'green';
+	}
+	function textcolor3() {
+		document.getElementById('textblue').style.Color = 'blue';
+	}
+</script>
 
 
 
