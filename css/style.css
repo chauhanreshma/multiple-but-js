@@ -71,36 +71,3 @@ div {
 
     }
 }
-
-
-/*<textarea>*/
-#textred {
-    padding: 20px 45px;
-    border: none;
-    background-color: pink;
-    outline: none;
-    justify-content: center;
-    cursor: pointer;
-    font-size: 25px;
-    margin: 30px 30px 20px 0px;
-}
-#textgreen {
-    padding: 20px 45px;
-    border: none;
-    background-color: pink;
-    outline: none;
-    justify-content: center;
-    cursor: pointer;
-    font-size: 25px;
-    margin: 30px 30px 20px 0px;
-}
-#textblue {
-    padding: 20px 45px;
-    border: none;
-    background-color: pink;
-    outline: none;
-    justify-content: center;
-    cursor: pointer;
-    font-size: 25px;
-    margin: 30px 30px 20px 0px;
-}
